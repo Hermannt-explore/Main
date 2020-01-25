@@ -14,7 +14,6 @@ if(in == NULL ){exit(0);}
 printf("PLease enter 5-character encryption key : ");
 for(i=0; i<6; i++){
 	scanf("%c", &initkey[i]);
-	//printf("\n%c", initkey[i]);
 	if(initkey[0] == '\n')
 	{	break;
 	}
