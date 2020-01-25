@@ -1,3 +1,4 @@
+//This program decrypts an encrypted file using the user provided key.
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
