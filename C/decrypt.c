@@ -7,7 +7,7 @@ char initkey[6];
 char key[6];
 char c;
 FILE *out, *enc;
-out=fopen("output.txt", "w");
+out=fopen("decrypted.txt", "w");
 enc=fopen("encrypted.txt", "r");
 if(enc == NULL ){exit(0);}
 
@@ -45,5 +45,5 @@ while( (c=fgetc(enc)) != EOF){
 }
 fclose(out);
 fclose(enc);
-printf("your file is named out.txt\n");
+printf("your file is named decrypted.txt\n");
 }
